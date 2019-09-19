@@ -28,4 +28,3 @@ puts email_addresses.split.collect do |address|
       address.split(',') 
     end
  
-puts parser.parse
