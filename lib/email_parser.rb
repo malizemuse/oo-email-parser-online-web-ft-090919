@@ -19,9 +19,3 @@ class EmailAddressParser
 end 
 
 
-# TEST CODE 
-
-email_addresses = "john@doe.com, person@somewhere.org"
-parser = EmailAddressParser.new(email_addresses)
- 
-puts parser.parse 
