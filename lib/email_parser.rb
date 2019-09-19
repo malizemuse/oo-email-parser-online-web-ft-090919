@@ -24,7 +24,7 @@ end
 email_addresses = "john@doe.com, person@somewhere.org"
 parser = EmailAddressParser.new(email_addresses)
  
-email_addresses.split.collect do |address|
+puts email_addresses.split.collect do |address|
   address.split(',') 
 end.flatten.uniq
- 
+
