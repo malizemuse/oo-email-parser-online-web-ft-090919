@@ -8,6 +8,7 @@ class EmailParser
   
   def parse
     
+    @csv_emails.split("")
     
     
   end 
